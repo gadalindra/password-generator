@@ -13,7 +13,7 @@ while True:
         print("No valid integer! Please try again ...")
 
 def passwordGenerator(lenght: int) -> int:
-    characters = string.ascii_lowercase + string.ascii_uppercase + string.digits
+    characters = string.ascii_lowercase + string.ascii_uppercase + string.digits + string.printable
     password = ""
     
     for s in range(lenght):
